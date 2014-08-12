@@ -7,6 +7,12 @@ I grew up with.
 The following list contains the copyright details of all software in
 this directory.
 
+* games/digger
+  - Digger Remastered
+  - Copyright (c) 1998-2004 Andrew Jenner
+  - Author: Andrew Jenner
+  - License: GNU General Public License version 2 or later
+  - URLs: http://www.digger.org/digger.zip http://www.digger.org/digsrc.zip
 * games/inv78-02
   - Invaders 1978 v02
   - Copyright (c) 1996-2000 James Eibisch
