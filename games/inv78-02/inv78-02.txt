@@ -1,0 +1,185 @@
+Invaders 1978 v02
+
+
+    ##     The Invaders march ...
+   ####      Bom bom bom bom ...
+  ######       Left, right, fire!
+ ## ## ##        Faster, faster they march ...
+ ########          Suddenly you're 11 again!
+   #  #              Dodge the bombs ...
+  # ## #               They're turning green ...
+ # #  # #                Get them before they land!
+
+
+A version of Taito's original Space Invaders(TM) for the PC
+
+James Eibisch, Jun 1996, Dec 2000
+
+http://www.netadelica.com/
+
+
+********** BORING STUFF
+
+This game is freeware. That is, it's free to use and distribute anywhere you
+like, but only on condition that you keep the three files (INV78-02.EXE,
+INV78-02.TXT and INV78-02.BAS) together and that you don't charge any payment
+for it.
+
+Also, I cannot be held responsible if this program does anything nasty to your
+machine. It hasn't damaged anyone's PC that I'm aware of and there's no reason
+why it should, really.
+
+
+********** 	PLAY THE GAME
+
+Type "inv78-02" at the DOS command prompt.
+
+Left         - Left CTRL
+Right        - Left ALT
+Fire         - Right SHIFT
+Stop program - Esc
+
+
+********** WAFFLE
+
+Having tried a number of Space Invader 'clones' for the PC I decided to write
+one that was more like the original - most of the clones are rather different.
+My interest in the game is just nostalgia - playing Taito's Space Invaders
+around 1979, aged 11, was my introduction to computers. It seemed magical to
+me, and I was fascinated from that point on in working out how an inanimate
+object comprising a bunch of electronics, some memory, a VDU, and some input
+controls could offer such unlimited possibilities. So, 17 years after first
+grappling with a computer game, here's my little tribute to it and to the
+company who made it.
+
+Version 1.0 was mailware - I asked people to mail me if they got the game.
+Around 10,000 emails later, I'm genuinely delighted at the response, but
+it's more than I can cope with now, so there's no email address anymore.
+
+Some of the emails were amazing - the game was used for things I never dreamt
+of. I thought it would just be a few people playing it on their PCs, but it was
+used as a demo for a a PC emulator, Nintendo Mexico bundled it on a range of
+home PCs, some schoolchildren projected it onto their classroom wall, one
+person created a 3D version, a music/multimedia group in San Francisco used the
+sound effects in a project, it was on the CD in the IDG book 'Windows Game
+Programming for Dummies', and it ended up on lots of magazine cover disks
+around the world. Not bad for such a cruddy little program :-)
+
+
+********** REQUIREMENTS
+
+Basically, don't worry - it'll almost certainly work on your PC.
+
+Requires:
+---------
+
+DOS - tested with MS-DOS 6.22 and Windows 3/95. No known lower limit. I don't
+know if it works with Windows 2000 or Windows ME. Several people have said it
+works ok with Windows NT3 and NT4.
+
+VGA - tested with ET4000, ET6000 and ATI Rage cards, and lots of people have
+reported it works with a variety of other cards. It uses screen 13:
+320x200x256.
+
+Supports:
+---------
+
+Soundblaster - tested with AWE32, and lots of people have said it works with a
+variety of other cards. Make sure you've got your soundcard driver set up for
+DOS (e.g. if you have a Soundblaster, a line starting 'SET BLASTER=' in your
+c:\autoexec.bat file).
+
+Uses ports:
+-----------
+
+&H3DA - for vertical retrace
+
+&H388
+&H389 - for Adlib sound
+
+&H3C6
+&H3C8
+&H3C9 - for palette setting
+
+Uses memory locations:
+----------------------
+
+&H417 - to read the keyboard
+
+Machine speed requirements:
+---------------------------
+
+Should run at full speed on any x86 processor.
+
+When interpreted, rather than compiled, the program does all its work
+within 15% of the vertical retrace cycle on a 486DX/66. The compiled
+version should keep up with the vertical retrace on an 8086.
+
+If you press the '=' key, the game will display how much of the vertical
+retrace time the game takes up each cycle. Exciting, eh?
+
+Unknown requirements:
+---------------------
+
+Base memory - tested with 479K free base memory
+Memory manager - tested with himem.sys and emm386.exe
+
+
+********** NOTES
+
+1. The program does not attempt to detect a soundcard; it assumes a
+Soundblaster is installed. Apparently it works ok on machines without a
+soundcard, but can't guarantee it'll work on yours.
+
+2. The player's bullet fire and explosion sound effects are pretty
+dismal. I've found no information on how to use white noise on the
+Soundblaster, so the program approximates with the tone channels.
+
+3. The attract mode is minimal. I might add the original attract and
+demo modes in the future.
+
+4. The program simulates a monitor 256 pixels wide, as per the original (I
+think). The background colour for this is set to a dark grey to attempt to
+simulate a little bit of monitor wear and burn-in. I found the jet black of a
+modern PC monitor was not quite authentic enough :-) If you cannot see the
+grey background, try increasing your brightness and contrast controls.
+
+5. There's no high-score table, because the original game didn't have one.
+
+6. You can't re-assign the keys and it doesn't work with a joystick, sorry.
+
+7. Quake it ain't. It's just a nostalgia trip.
+
+
+********** NOTES ON THE SOURCE CODE
+
+The file inv78-02.bas is the source code for the game. It's for QBASIC and it
+compiles with QuickBasic 4.5. It runs, interpreted, within QBASIC easily at
+full speed on a 486/66, probably on lower-powered machines, too.
+
+The code is reasonably structured. I tend to sufffix variables with "s"
+to mean "status", so the variable 'saucers' means 'saucer status'.
+
+The SUBs and FUNCTIONs that start with "sb", e.g. "sbreset" are general-
+purpose SoundBlaster routines that can be plugged into any program
+without modification.
+
+What else? Well, not much - it's a very simple program. Hope you find
+it useful, though, if you're into this sort of thing!
+
+
+********** HISTORY
+
+v02  - Dec 2000
+---------------
+Added the source code into the zip file
+Made the saucer scores be like the original game
+Changed the saucer's colour to red
+Made the Invaders drop bombs slightly less aggressively (but not much)
+Fixed a bug whereby getting to level 7 would crash the game
+Updated references to my URL
+Removed references to my email address
+
+v1.0 - Jun 1996
+---------------
+Version 1.0 ;)
