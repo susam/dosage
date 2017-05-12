@@ -25,3 +25,8 @@ this directory.
   - Author: Atari, Inc.
   - License: Unknown
   - URL: http://dosgamezone.com/download/ms-pacman-1615.html
+* games/grandprix
+  - Grand Prix Circuit
+  - Copyright (c) 1988 Accolade Inc.
+  - Author: Accolade, Inc.
+  - URL: http://www.bestoldgames.net/eng/old-games/grand-prix-circuit.php
