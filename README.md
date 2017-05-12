@@ -1,8 +1,9 @@
 DOSAge
 ======
-
 This directory contains a collection of vintage DOS games and tools that
-I grew up with.
+I grew up with. These can be run using [DOSBox][DOSBOX].
+
+[DOSBOX]: http://www.dosbox.com/download.php?main=1
 
 The following list contains the copyright details of all software in
 this directory.
@@ -23,10 +24,14 @@ this directory.
   - Ms. Pac-Man
   - Copyright (c) 1983 Atari, Inc.
   - Author: Atari, Inc.
-  - License: Unknown
   - URL: http://dosgamezone.com/download/ms-pacman-1615.html
 * games/grandprix
   - Grand Prix Circuit
   - Copyright (c) 1988 Accolade Inc.
   - Author: Accolade, Inc.
   - URL: http://www.bestoldgames.net/eng/old-games/grand-prix-circuit.php
+* games/dangerous-dave
+  - Dangerous Dave
+  - Copyright (c) 1990 Softdisk, Inc.
+  - Author: John Romero
+  - URL: http://www.dosgames.com/g_side2.php
