@@ -35,3 +35,8 @@ this directory.
   - Copyright (c) 1990 Softdisk, Inc.
   - Author: John Romero
   - URL: http://www.dosgames.com/g_side2.php
+* langs/logo
+  - IBM Personal Computer Logo Version 1.00
+  - (c) Copyright IBM Corp. 1983
+  - (c) COpyright LCSI 1983
+  - URL: https://www.myabandonware.com/game/logo-2ms
