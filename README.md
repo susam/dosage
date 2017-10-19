@@ -40,3 +40,13 @@ this directory.
   - (c) Copyright IBM Corp. 1983
   - (c) COpyright LCSI 1983
   - URL: https://www.myabandonware.com/game/logo-2ms
+* langs/gwbasic
+  - GW-BASIC 3.23
+  - (C) Copyright Microsoft 1983,1984,1985,1986,1987,1988
+  - URL: https://web.archive.org/web/20091027112638/http://geocities.com/KindlyRat/GWBASIC.html
+  - Downloads: GWBASIC.EXE.zip, gw-man.zip
+* langs/qb45
+  - Microsoft (R) QuickBasic Version 4.50
+  - (C) Copyright Microsoft Corporation, 1985-1988
+  - URL: http://www.qbasic.net/en/qbasic-downloads/compiler/qbasic-compiler.htm
+  - Download: QuickBasic 4.5 EN
