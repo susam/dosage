@@ -38,7 +38,7 @@ this directory.
 * langs/logo
   - IBM Personal Computer Logo Version 1.00
   - (c) Copyright IBM Corp. 1983
-  - (c) COpyright LCSI 1983
+  - (c) Copyright LCSI 1983
   - URL: https://www.myabandonware.com/game/logo-2ms
 * langs/gwbasic
   - GW-BASIC 3.23
