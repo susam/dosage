@@ -8,6 +8,10 @@ I grew up with. These can be run using [DOSBox][DOSBOX].
 The following list contains the copyright details of all software in
 this directory.
 
+* games/moon-bugs
+  - Copyright (c) 1983 Windmill Software
+  - Author: Windmill Software
+  - URL: https://www.myabandonware.com/game/moon-bugs-2l
 * games/digger
   - Digger Remastered
   - Copyright (c) 1998-2004 Andrew Jenner
