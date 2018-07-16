@@ -54,3 +54,8 @@ this directory.
   - (C) Copyright Microsoft Corporation, 1985-1988
   - URL: http://www.qbasic.net/en/qbasic-downloads/compiler/qbasic-compiler.htm
   - Download: QuickBasic 4.5 EN
+* langs/qbasic
+  - MS-DOS QBasic Version 1.1
+  - Copyright (C) Microsoft Corporation, 1987-1992
+  - URL: https://www.qbasic.net/en/qbasic-downloads/compiler/qbasic-interpreter.htm
+  - Download: QBasic 1.1 EN
