@@ -12,8 +12,8 @@ this directory.
   - URL: https://www.myabandonware.com/game/bricks-1qf
   - URL: https://archive.org/details/Bricksa11984VinceBlyAction
   - Download: Bricks (1984)(Vince Bly) [Action].zip
-  - Command: `dosbox -machine cga -startmapper -c "config -set cpu cycles 400" -c "mount c ." -c "c:\brick.exe"`
-  - Command: `dosbox -machine cga -c "config -set cpu cycles 400" -c "mount c ." -c "c:\brick.exe"`
+  - Command: `dosbox -startmapper`
+  - Command: `dosbox -machine cga -c "config -set cpu cycles 400" -c "mount c ." -c "c:\brick"`
   - Notes:
     - The first command starts key mapper to map Caps Lock and Insert
       keys to other convenient keys.
@@ -26,6 +26,8 @@ this directory.
   - Copyright (c) 1983 Windmill Software
   - Author: Windmill Software
   - URL: https://www.myabandonware.com/game/moon-bugs-2l
+  - Command: `dosbox -startmapper`
+  - Command: `dosbox -machine cga -c "config -set cpu cycles 400" -c "mount c ." -c "c:\moonbugs"`
 * games/digger
   - Digger Remastered
   - Copyright (c) 1998-2004 Andrew Jenner
