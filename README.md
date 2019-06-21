@@ -8,6 +8,20 @@ I grew up with. These can be run using [DOSBox][DOSBOX].
 The following list contains the copyright details of all software in
 this directory.
 
+* games/bricks
+  - URL: https://www.myabandonware.com/game/bricks-1qf
+  - URL: https://archive.org/details/Bricksa11984VinceBlyAction
+  - Download: Bricks (1984)(Vince Bly) [Action].zip
+  - Command: `dosbox -machine cga -startmapper -c "config -set cpu cycles 400" -c "mount c ." -c "c:\brick.exe"`
+  - Command: `dosbox -machine cga -c "config -set cpu cycles 400" -c "mount c ." -c "c:\brick.exe"`
+  - Notes:
+    - The first command starts key mapper to map Caps Lock and Insert
+      keys to other convenient keys.
+    - The second command does not start key mapper.
+  - Manual Settings:
+    - Press `Ctrl` + `Fn` + `F11` to reduce CPU speed to about 400 cycles.
+    - Press `Command` + `Ctrl` + `Fn` + `F1` to remap Caps Lock and
+      Insert keys to convenient keys like left arrow and right arrow.
 * games/moon-bugs
   - Copyright (c) 1983 Windmill Software
   - Author: Windmill Software
@@ -51,7 +65,6 @@ this directory.
   - Downloads: GWBASIC.EXE.zip, gw-man.zip
   - URL: https://hwiegman.home.xs4all.nl/gwbasic.html
   - Downloads: GW-BASIC.ZIP, GW-MAN.zip
-  - Notes: Content of both URLs are identical.
 * langs/qb45
   - Microsoft (R) QuickBasic Version 4.50
   - (C) Copyright Microsoft Corporation, 1985-1988
@@ -76,7 +89,6 @@ this directory.
   - Download: QBasic 1.1 EN
   - URL: https://hwiegman.home.xs4all.nl/gwbasic.html
   - Download: QBasic 1.1
-  - Note: Content of both URLs are identical
 * langs/bascom
   - IBM Personal Computer BASIC Compiler
   - (C) Copyright IBM Corp. 1982, 1983, 1984, 1985 Version 2.00
