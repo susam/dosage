@@ -49,13 +49,48 @@ this directory.
   - (C) Copyright Microsoft 1983,1984,1985,1986,1987,1988
   - URL: https://web.archive.org/web/20091027112638/http://geocities.com/KindlyRat/GWBASIC.html
   - Downloads: GWBASIC.EXE.zip, gw-man.zip
+  - URL: https://hwiegman.home.xs4all.nl/gwbasic.html
+  - Downloads: GW-BASIC.ZIP, GW-MAN.zip
+  - Notes: Content of both URLs are identical.
 * langs/qb45
   - Microsoft (R) QuickBasic Version 4.50
   - (C) Copyright Microsoft Corporation, 1985-1988
   - URL: http://www.qbasic.net/en/qbasic-downloads/compiler/qbasic-compiler.htm
   - Download: QuickBasic 4.5 EN
-* langs/qbasic
+  - URL: https://hwiegman.home.xs4all.nl/gwbasic.html
+  - Download: QuickBasic 4.5
+  - Notes:
+    - Most files in both URLs are identical.
+    - The first download contains files in HLP, INC, and LIB directory
+      whereas the second download have these files in the top-level
+      directory.
+    - The first download have paths to HLP, INC, and LIB directories in
+      QB.INI whereas the second download have paths to QB45 directory in
+      QB.INI.
+    - The first download contains PACKING.LST.lst but the second one
+      does not have this file.
+* langs/qb11
   - MS-DOS QBasic Version 1.1
   - Copyright (C) Microsoft Corporation, 1987-1992
   - URL: https://www.qbasic.net/en/qbasic-downloads/compiler/qbasic-interpreter.htm
   - Download: QBasic 1.1 EN
+  - URL: https://hwiegman.home.xs4all.nl/gwbasic.html
+  - Download: QBasic 1.1
+  - Note: Content of both URLs are identical
+* langs/bascom
+  - IBM Personal Computer BASIC Compiler
+  - (C) Copyright IBM Corp. 1982, 1983, 1984, 1985 Version 2.00
+  - (C) Copyright Microsoft Corp. 1982, 1983, 1984, 1985
+  - URL: https://web.archive.org/web/20091027112638/http://geocities.com/KindlyRat/GWBASIC.html
+  - Download: COMPILER.zip
+  - URL: https://hwiegman.home.xs4all.nl/gwbasic.html
+  - Download: BASCOM.ZIP
+  - Notes:
+    - The important files are same in both downloads but there are
+      differences as well.
+    - This directory contains a subset of the content from BASCOM.ZIP
+      downloaded from the second URL.
+    - The following files have been removed from the download because
+      they are not useful: GETCLOCK.COM, RAMDISK.COM, SAMPLE1.BAT,
+      SAMPLE2.BAT.
+  - Commands: `BASCOM HELLO /O`, `LINK HELLO`.
