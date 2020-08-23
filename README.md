@@ -34,6 +34,7 @@ this directory.
   - Copyright (c) 1983 Windmill Software
   - Author: Windmill Software
   - URL: https://www.myabandonware.com/game/moon-bugs-2l
+  - URL: http://digger.org/moonbugs.zip
   - Command: `dosbox -startmapper`
   - Command: `dosbox -machine cga -c "config -set cpu cycles 300" -c "mount c ." -c "c:\moonbugs"`
 * games/digger83
