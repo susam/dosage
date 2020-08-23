@@ -1,0 +1,23 @@
+
+        PROGRAM:        MIPS.COM    -   Version 1.10  1986
+
+        PURPOSE:        CPU Benchmark and Performance Test
+
+        USAGE:          MIPS [Enter]
+
+
+        FUNCTIONS:      Measures Million(s) of Instructions Per Second
+
+                (1)     General Instructions    -       random
+                (2)     Integer Instructions    -       ADD SUB MUL DIV
+                (3)     Memory to Memory        -       MOV RAM to RAM
+                (4)     Register to Register    -       MOV REG to REG
+                (5)     Register to Memory      -       MOV REG to RAM
+
+                (6)     Performance Rating      -       average
+
+
+        COPYRIGHT:      (C) 1986 Chips and Technologies, Inc.
+
+_______________________________________________________________________________
+

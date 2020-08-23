@@ -21,7 +21,7 @@ this directory.
       `Bricks [a2] (1984)(Vince Bly) [Action].zip` are all different
       from one another.
   - Command: `dosbox -startmapper`
-  - Command: `dosbox -machine cga -c "config -set cpu cycles 400" -c "mount c ." -c "c:\brick"`
+  - Command: `dosbox -machine cga -c "config -set cpu cycles 300" -c "mount c ." -c "c:\brick"`
   - Notes:
     - The first command starts key mapper to map Caps Lock and Insert
       keys to other convenient keys.
@@ -35,7 +35,7 @@ this directory.
   - Author: Windmill Software
   - URL: https://www.myabandonware.com/game/moon-bugs-2l
   - Command: `dosbox -startmapper`
-  - Command: `dosbox -machine cga -c "config -set cpu cycles 400" -c "mount c ." -c "c:\moonbugs"`
+  - Command: `dosbox -machine cga -c "config -set cpu cycles 300" -c "mount c ." -c "c:\moonbugs"`
 * games/digger98
   - Digger Remastered
   - Copyright (c) 1998-2004 Andrew Jenner
@@ -117,3 +117,9 @@ this directory.
       they are not useful: GETCLOCK.COM, RAMDISK.COM, SAMPLE1.BAT,
       SAMPLE2.BAT.
   - Commands: `BASCOM HELLO /O`, `LINK HELLO`.
+* tools/mips
+  - MIPS v1.10 CPU Benchmark and Performance Test
+  - (C) 1986 Chips and Technologies, Inc.
+  - URL: https://archive.org/details/MIPS_ZIP
+  - URL: https://archive.org/download/MIPS_ZIP/MIPS.ZIP
+  - Command: `dosbox -machine cga -c "config -set cpu cycles 300" -c "mount c ." -c "c:\mips"`
