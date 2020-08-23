@@ -36,6 +36,16 @@ this directory.
   - URL: https://www.myabandonware.com/game/moon-bugs-2l
   - Command: `dosbox -startmapper`
   - Command: `dosbox -machine cga -c "config -set cpu cycles 300" -c "mount c ." -c "c:\moonbugs"`
+* games/digger83
+  - Copyright (c) 1983 Windmill Software
+  - Author: Windmill Software
+  - URL: https://www.myabandonware.com/game/digger-25
+  - URL: http://digger.org/digrip.zip
+  - Download MANUAL from the first URL and executable from the second.
+  - The executable from both URLs are not identical. Download from
+    second URL because it provides a smaller executable.
+  - Download "Original PC Booter Version" from the first URL.
+  - Command: `dosbox -machine cga -c "config -set cpu cycles 400" -c "mount c ." -c "c:\digger"`
 * games/digger98
   - Digger Remastered
   - Copyright (c) 1998-2004 Andrew Jenner
