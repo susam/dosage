@@ -11,7 +11,15 @@ this directory.
 * games/bricks
   - URL: https://www.myabandonware.com/game/bricks-1qf
   - URL: https://archive.org/details/Bricksa11984VinceBlyAction
-  - Download: Bricks (1984)(Vince Bly) [Action].zip
+    - Download: `Bricks (1984)(Vince Bly) [Action].zip`
+    - `Bricks (1984)(Vince Bly) [Action].zip` provides `BRICK.EXE`
+      identical to the one in the previous URL. It
+      also provides `BRICKS.DOC` identical to the one in
+      `Bricks [a1] (1984)(Vince Bly) [Action].zip`.
+    - The executables in `Bricks (1984)(Vince Bly) [Action].zip`,
+      `Bricks [a1] (1984)(Vince Bly) [Action].zip`, and
+      `Bricks [a2] (1984)(Vince Bly) [Action].zip` are all different
+      from one another.
   - Command: `dosbox -startmapper`
   - Command: `dosbox -machine cga -c "config -set cpu cycles 400" -c "mount c ." -c "c:\brick"`
   - Notes:
