@@ -1,0 +1,46 @@
+INSTRUCTIONS
+
+Before starting game, press 'ESC'
+to select number of players.
+
+Use the UP, DOWN, LEFT & RIGHT
+arrow keys to maneuvre your DIGGER
+Mobile through the mining site
+following the old mining shafts
+and tunnelling new paths.
+
+Press Function Key 'F1' to throw
+fireballs at the approaching
+Nobbins and Hobbins.
+
+'F7' controls background music.
+'F9' controls all sound.
+SPACE BAR suspends game.
+Ctrl left & right arrow keys
+reposition the screen.
+
+
+SCORING
+
+During normal play, you destroy
+Nobbins & Hobbins with your fireball
+or by pushing the gold sacks down
+a mine shaft. Don't forget to scoop
+up the gold when the sack breaks.
+
+After all the Nobbins & Hobbins have
+emerged, cherries appear. Scooping up
+the cherries begins a bonus round.
+
+  Nobbins & Hobbins .....  250
+  Emeralds ..............   25
+  Gold Nuggets ..........  500
+
+Bonus points:
+  8 Emeralds in a row ...  250
+  Cherries .............. 1000
+  Nobbins & Hobbins ... 200, 400, 800
+
+With every 20,000 points, you earn
+an extra life.
+

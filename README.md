@@ -46,6 +46,11 @@ this directory.
     second URL because it provides a smaller executable.
   - Download "Original PC Booter Version" from the first URL.
   - Command: `dosbox -machine cga -c "config -set cpu cycles 400" -c "mount c ." -c "c:\digger"`
+* games/digger86
+  - Copyright (c) 1986 Windmill Software
+  - Author: Windmill Software
+  - URL: https://www.myabandonware.com/game/digger-25
+  - Download 1986 version.
 * games/digger98
   - Digger Remastered
   - Copyright (c) 1998-2004 Andrew Jenner
