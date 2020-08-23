@@ -36,12 +36,13 @@ this directory.
   - URL: https://www.myabandonware.com/game/moon-bugs-2l
   - Command: `dosbox -startmapper`
   - Command: `dosbox -machine cga -c "config -set cpu cycles 400" -c "mount c ." -c "c:\moonbugs"`
-* games/digger
+* games/digger98
   - Digger Remastered
   - Copyright (c) 1998-2004 Andrew Jenner
   - Author: Andrew Jenner
   - License: GNU General Public License version 2 or later
-  - URLs: http://www.digger.org/digger.zip http://www.digger.org/digsrc.zip
+  - URL: http://www.digger.org/digger.zip
+  - URL: http://www.digger.org/digsrc.zip
 * games/inv78-02
   - Invaders 1978 v02
   - Copyright (c) 1996-2000 James Eibisch
