@@ -1,0 +1,1 @@
+dosbox DIGGER.COM -c "config -set render aspect=true" -c "config -set cpu cycles=500" -machine cga
