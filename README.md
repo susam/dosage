@@ -5,8 +5,8 @@ I grew up with. These can be run using [DOSBox][DOSBOX].
 
 [DOSBOX]: http://www.dosbox.com/download.php?main=1
 
-The following list contains the copyright details of all software in
-this directory.
+The following list contains the copyright and other details of all
+software in this directory:
 
 * games/bricks
   - URL: https://www.myabandonware.com/game/bricks-1qf
@@ -20,23 +20,13 @@ this directory.
       `Bricks [a1] (1984)(Vince Bly) [Action].zip`, and
       `Bricks [a2] (1984)(Vince Bly) [Action].zip` are all different
       from one another.
-  - Command: `dosbox -startmapper`
-  - Command: `dosbox -machine cga -c "config -set cpu cycles 300" -c "mount c ." -c "c:\brick"`
-  - Notes:
-    - The first command starts key mapper to map Caps Lock and Insert
-      keys to other convenient keys.
-    - The second command does not start key mapper.
-  - Manual Settings:
-    - Press `Ctrl` + `Fn` + `F11` to reduce CPU speed to about 400 cycles.
-    - Press `Command` + `Ctrl` + `Fn` + `F1` to remap Caps Lock and
-      Insert keys to convenient keys like left arrow and right arrow.
+  - Use the `dosbox -startmapper` command to map Caps Lock and Insert
+    keys to other convenient keys like left arrow and right arrow.
 * games/moon-bugs
   - Copyright (c) 1983 Windmill Software
   - Author: Windmill Software
   - URL: https://www.myabandonware.com/game/moon-bugs-2l
   - URL: http://digger.org/moonbugs.zip
-  - Command: `dosbox -startmapper`
-  - Command: `dosbox -machine cga -c "config -set cpu cycles 300" -c "mount c ." -c "c:\moonbugs"`
 * games/digger83
   - Copyright (c) 1983 Windmill Software
   - Author: Windmill Software
@@ -46,7 +36,6 @@ this directory.
   - The executable from both URLs are not identical. Download from
     second URL because it provides a smaller executable.
   - Download "Original PC Booter Version" from the first URL.
-  - Command: `dosbox -machine cga -c "config -set cpu cycles 400" -c "mount c ." -c "c:\digger"`
 * games/digger86
   - Copyright (c) 1986 Windmill Software
   - Author: Windmill Software
@@ -138,4 +127,8 @@ this directory.
   - (C) 1986 Chips and Technologies, Inc.
   - URL: https://archive.org/details/MIPS_ZIP
   - URL: https://archive.org/download/MIPS_ZIP/MIPS.ZIP
-  - Command: `dosbox -machine cga -c "config -set cpu cycles 300" -c "mount c ." -c "c:\mips"`
+
+Some directories have a file named `run` that contains the command to
+run the program in that directory with the right DOSBox configuration.
+To run this file on a macOS or Linux system, enter `sh run`. To run it
+on Windows, enter `cmd < run`.

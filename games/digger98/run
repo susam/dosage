@@ -1,0 +1,1 @@
+dosbox DIGGER.EXE -c "config -set render aspect=true"

@@ -1,0 +1,1 @@
+dosbox MIPS.COM -c "config -set cpu cycles=300" -machine cga
