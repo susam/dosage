@@ -59,7 +59,7 @@ software in this directory:
   - Copyright (c) 1983 Atari, Inc.
   - Author: Atari, Inc.
   - URL: http://dosgamezone.com/download/ms-pacman-1615.html
-* [games/grandprix](games/grandprix)
+* [games/grand-prix-circuit](games/grand-prix-circuit)
   - Grand Prix Circuit
   - Copyright (c) 1988 Accolade Inc.
   - Author: Accolade, Inc.
