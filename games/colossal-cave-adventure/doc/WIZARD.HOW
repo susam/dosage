@@ -1,0 +1,327 @@
+WIZARD STUFF--HOW AND WHAT
+
+
+Introduction
+
+This document is for qualified wizards only.  You are forbidden to distribute
+this information or any part thereof to lay persons, on pain of having your
+wizard certificate revoked.  As a wizard you are authorized to schedule the
+hours during which the cave is opened on weekdays, Saturdays and Sundays, and
+holidays.  You can specify the next forthcoming holiday, which can last for
+more than one day if you like.  You can specify the length, in moves, of the
+demonstration game that is permitted non-wizards during those hours when the
+cave is closed, and the latency time, in minutes, that a player must wait
+after saving a game until restarting it.  (For wizards, this value is cut
+to one third the normal value.)  You can alter the magic word and the magic
+number, which are used to validate claims to being a wizard, and you can
+alter the message of the day, which is displayed at the beginning of the
+game.  Note that all entries that you make are case insensitive.  You may
+use either upper or lower case letters at your pleasure.
+
+
+Wizards and Non-Wizards
+
+During hours when the cave is closed, only wizards are permitted to play
+unrestricted, although ordinary players may be offered a short demonstration
+game.  If you start the program when the cave is open, and continue on into
+a period when the cave is closed, the wizard will appear and abruptly terminate
+your game.  If you start the program when the cave is closed, you are
+immediately (after the initialisation is complete) greeted with a message that
+looks something like the following, with hours reflecting how your cave hours
+are set:
+
+I'M TERRIBLY SORRY, BUT COLOSSAL CAVE IS CLOSED.  OUR HOURS ARE:
+
+         MON-FRI:   0:00 TO  8:00
+                   12:00 TO 13:00
+                   17:00 TO 24:00
+         SAT-SUN:  OPEN ALL DAY
+         HOLIDAYS  OPEN ALL DAY
+         
+ONLY WIZARDS ARE PERMITTED WITHIN THE CAVE RIGHT NOW.
+
+ARE YOU A WIZARD?
+
+If you answer "no", the following appears (provided it is permitted by your 
+local wizard):
+
+WE DO ALLOW VISITORS TO MAKE SHORT EXPLORATIONS DURING OUR OFF HOURS.
+WOULD YOU LIKE TO DO THAT?
+
+If you answer "yes", you are permitted to play a short game.  The maximum
+number of turns is determined by your local wizard.  At the end of this
+number of turns, the wizard appears and unceremoniously ends the game.  If
+you answer "no", the program terminates.
+
+If you answer "yes" to the question "ARE YOU A WIZARD?", you will be required
+to demonstrate some wizard skills to prove that you are.  If you successfully
+do so, you will be permitted to play as though the cave were open.  You also
+may elect to perform some maintenance chores, such as adjusting the cave hours,
+specifying the next holiday, etc.  Choosing this path causes the program to
+terminate upon completion of the maintenance chores.
+
+During hours when the cave is open, wizards and non-wizards alike may play
+the game normally.  Wizards have no advantages during normal play.
+
+
+Proving That You Are a Wizard
+
+In order to perform wizard maintenance chores, you must enter the maintenance
+mode as the first play of the game after you have accepted or declined the
+offered instructions.  If you play so much as one turn, you cannot enter the
+maintenance mode.  To enter the maintenance mode, therefore, you must, as your
+first turn, enter the words "magic mode".  If you have already qualified as a
+wizard (on entering the game during hours when the cave is closed), you will
+see the first of the maintenance mode prompts.  If you entered during hours
+when the cave is open, you will be challenged with the words:
+
+ARE YOU A WIZARD?
+
+Answering "no" takes you back to the game as an ordinary player, with no
+penalty.  Answering "yes" brings on a series of challenges.  Failing any one
+challenge gets you the message:
+
+FOO, YOU ARE NOTHING BUT A CHARLATAN!
+
+and you are taken back to the game as an ordinary player.  The challenges,
+in order, and the correct responses, are as follows:
+
+PROVE IT!  SAY THE MAGIC WORD!
+
+You must respond with the current magic word.  The default magic word, which
+can be changed by your local wizard, is "dwarf".
+
+THAT'S NOT WHAT I THOUGHT IT WAS.  DO YOU KNOW WHAT I THOUGHT IT WAS?
+
+If you answer "yes", you fail.  You must answer "no".  You will then be
+presented with a challenge that consists of a four-letter "word", with the
+letters chosen at random.  For example:
+
+RVGI
+
+You must enter the correct four-letter response, based on the challenge and on
+the current time of day.  Since this is the difficult part (which must *never*
+be revealed to other than authorized wizards), it will be explained in painful
+detail.  First, write down a sequence of four numbers, each representing the
+ordinal value of a letter of the challenge (A = 1).  Thus RVGI becomes the
+number sequence:
+
+18  22   7   9
+
+Transform this into a new four-number sequence by taking the absolute value of
+the difference between each number and its predecessor number.  (The predecessor
+of the first number is the last number.)  Your result, for this example, should
+look like:
+
+ 9   4  15   2
+
+Multiply each of these numbers by the corresponding digit in the magic number.
+The default magic number is 1111, so the result will still be:
+
+ 9   4  15   2
+ 
+Using the 24-hour clock (2:00 pm = 1400), write under the above numbers the
+time of day, truncated to the nearest 10 minutes.  For example, 10:33 am becomes
+1 0 3 0.  So far your work should look like this:
+
+ 9   4  15   2
+ 1   0   3   0
+ 
+Under each of the four columns, enter a 1, so that your work looks like:
+
+ 9   4  15   2
+ 1   0   3   0
+ 1   1   1   1
+ 
+Now add each of the four columns independently.  Do not carry from one column
+to the next.  You result should be:
+
+ 9   4  15   2
+ 1   0   3   0
+ 1   1   1   1
+--------------
+11   5  19   3
+
+If any of the sums exceeds 26, simply subtract 26 (i.e., do the column addition
+modulo 26).  These four numbers are the ordinal numbers of the four letters of
+your required response which, in this case, is:
+
+KERC
+
+Enter this response.  If you did the arithmetic correctly, you will now be a
+validated wizard, as indicated by the appearance of the message:
+
+OH DEAR, YOU REALLY *ARE* A WIZARD!  SORRY TO HAVE BOTHERED YOU . . .
+
+If you entered the game during hours when the cave is closed you are permitted
+to play the game normally.  If you wish to perform maintenance chores, you must
+enter the words "magic mode" as your first turn after accepting or declining the
+offered instructions.  If you entered during hours when the cave is open, you
+already entered the words "magic mode" and you are now automatically in
+maintenance mode.
+
+
+Maintenance Chores
+
+Now that you are in the maintenance mode as a demonstrated wizard, you are 
+offered a series of prompts for the various chores available to you.  Your
+answers may change a number of things, including the magic word and the magic
+number, so remember these changes if you make them!  Here are the prompts:
+
+DO YOU WISH TO SEE THE HOURS?
+
+Answering "no" takes you to the next prompt.  Answering "yes" displays the
+hours, and either a statement that today is a holiday (with its name), or
+an indication of how long it is to the next holiday, if any, and the name
+of that holiday.  For example, today is Friday, November 23, 1990, which is
+the second day of a two day holiday on our system, so the hours appear as:
+
+         MON-FRI    0:00 TO  8:00
+                   12:00 TO 13:00
+                   17:00 TO 24:00
+         SAT-SUN:  OPEN ALL DAY
+         HOLIDAYS  OPEN ALL DAY
+         
+TODAY IS A HOLIDAY, NAMELY THANKSGIVING
+
+The next prompt is:
+
+DO YOU WISH TO CHANGE THE HOURS?
+
+Answering "no" takes you to the next prompt.  Answering "yes" brings up a
+series of prompts for setting the hours, first on weekdays, then on weekends,
+and finally on holidays.  Note that the hours are specified by entering the
+"prime time" hours, which are hours when the cave is closed.  There can be
+more than one set of prime time hours for each category, as the following
+example dialogue demonstrates:
+
+NEW HOURS SPECIFIED BY DEFINING "PRIME TIME".  GIVE ONLY THE HOUR
+(E.G., 14, NOT 14:00 OR 2PM).  ENTER A NEGATIVE NUMBER AFTER LAST PAIR.
+PRIME TIME ON WEEKDAYS
+FROM:
+8     [entered from keyboard]
+TILL:
+12    [entered from keyboard]
+FROM:
+13    [entered from keyboard]
+TILL:
+17    [entered from keyboard]
+FROM:
+-1    [entered from keyboard]
+PRIME TIME ON WEEKENDS
+FROM:
+0     [entered from keyboard]
+TILL:
+0     [entered from keyboard]
+PRIME TIME ON HOLIDAYS
+FROM:
+0     [entered from keyboard]
+TILL:
+0     [entered from keyboard]
+NEW HOURS FOR COLOSSAL CAVE:
+
+         MON-FRI:   0:00 TO  8:00
+                   12:00 TO 13:00
+                   17:00 TO 24:00
+         SAT-SUN:  OPEN ALL DAY
+         HOLIDAYS  OPEN ALL DAY
+         
+TODAY IS A HOLIDAY, NAMELY THANKSGIVING
+
+Notice that weekend and holidays we want the cave to be open all day, so we
+specify starting and ending prime time hours both to be 0, in which case
+there is no need to enter a negative number to end the series, since the
+entire day has been covered.
+
+You are now offered a chance to schedule the next holiday.  The prompt is:
+
+DO YOU WISH TO (RE)SCHEDULE THE NEXT HOLIDAY?
+
+Entering "no" takes you to the next prompt.  Entering "yes" results in a dialog
+something like the following:
+
+TO BEGIN HOW MANY DAYS FROM TODAY?
+29    [entered from keyboard]
+TO LAST HOW MANY DAYS (ZERO IF NO HOLIDAY)?
+10    [entered from keyboard]
+TO BE CALLED WHAT (UP TO 20 CHARACTERS)?
+CHRISTMAS    [entered from keyboard]
+
+Note that only one holiday can be specified.  If today is a holiday, and
+you schedule the next one, today will revert to a non-holiday status, so
+schedule the next holiday after the current one has ended.
+
+Next, you may permit a short demonstration game to ordinary players during
+prime time.  The length is specified in moves, in response to the following
+prompt:
+
+LENGTH OF SHORT GAME (ZERO TO LEAVE AT 45):
+30    [entered from keyboard]
+
+Entering a value of zero prohibits demonstration games during prime time.
+
+Now you are offered a chance to change the magic word used to verify
+wizard status.  If you change this, be sure to remember what you change it to.
+
+NEW MAGIC WORD (NULL TO LEAVE UNCHANGED):
+BOZO    [entered from keyboard]
+
+Only the first four letters are significant.  If you wish to leave the current
+magic word unchanged, simply press the "enter" key.
+
+You may next change the magic number.  You cannot enter a zero with the idea
+of bypassing this step in the algorithm, since entering a zero leaves the
+old value unchanged.
+
+NEW MAGIC NUMBER (ZERO TO LEAVE UNCHANGED):
+1111    [entered from keyboard]
+
+At least one if the four digits must be non-zero to change the value.
+
+You may now enter the required time, in minutes, that a player must wait after
+saving a game until he can restart that game.  (Wizards may restart after a
+third of this time.)
+
+LATENCY FOR RESTART (ZERO TO LEAVE AT 90):
+30    [entered from keyboard]
+TOO SMALL!  ASSUMING MINIMUM VALUE (45 MINUTES).
+
+If you enter a value less than the minimum of 45, as was done above, you will
+get the message showing that a value of 45 is assumed.  Otherwise, the value
+you enter will be accepted without further comment.
+
+DO YOU WISH TO CHANGE THE MESSAGE OF THE DAY?
+
+Answering "no" takes you to the next prompt.  Answering "yes" permits you to
+enter a new message of the day, which may consist of up to 20 lines of not more
+than 80 characters each.  To terminate, simply press carriage return at the
+beginning of a line.
+
+LIMIT LINES TO 80 CHARS.  END WITH NULL LINE.
+
+If you enter a line that exceeds 80 characters, you will see the message:
+
+LINE TOO LONG, RETYPE:
+
+If you enter 20 lines, you will see the message:
+
+NOT ENOUGH ROOM FOR ANOTHER LINE.  ENDING MESSAGE HERE.
+
+This ends the maintenance chores.  Presently one more message is presented.
+There is an entry in the data file that states:
+
+BREAK OUT OF THIS AND SAVE YOUR CORE-IMAGE.
+
+or
+
+BE SURE TO SAVE YOUR CORE-IMAGE...
+
+depending on how the subroutine ciao.for was compiled.  These messages are left
+over from the DEC-10 implementation and one of them will appear now, but it is
+of no significance.  These messages are not otherwise used in this MS-DOS
+version.
+
+At this point when you enter another carriage return, the program terminates.
+
+That's all there is to being a wizard.  Simple, isn't it?  Sort of like being
+a system administrator with root privileges.

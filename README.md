@@ -74,6 +74,10 @@ software in this directory:
   - Copyright (c) 1990 Softdisk, Inc.
   - Author: John Romero
   - URL: http://www.dosgames.com/g_side2.php
+* [games/colossal-cave-adventure](games/colossal-cave-adventure)
+  - Authors: Willie Crowther and Don Woods
+  - URL: https://ifdb.tads.org/viewgame?id=fft6pu91j85y4acv
+  - URL: http://mirror.ifarchive.org/if-archive/games/pc/adv350de.zip
 * [langs/logo](langs/logo)
   - IBM Personal Computer Logo Version 1.00
   - (c) Copyright IBM Corp. 1983

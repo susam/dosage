@@ -1,0 +1,61 @@
+This is a resurrection of the old Adventure, written for the DEC-10 and
+ported to the PDP-11/70, ported this time to the MS-DOS environment.
+No new features have been added.  The only changes made were those
+required to get the program to compile using the Microsoft FORTRAN V5.0
+compiler.  This entailed a number of minor changes, such as replacing
+the "accept" statements with "read *" statements, and similar trivial
+items.  Also, two string handling subroutines ("getin" and "a5toa1") were
+totally rewritten using the FORTRAN 77 string functions and operators.
+Four string handling utility subroutines were added: "upcase," "shiftc,"
+"lchar," and "fchar."  The old sources for "getin" and "a5toa1"are
+included as "*.old" files.  They are not needed; I simply included
+them in case anyone wanted to see them.  I also slightly modified
+the input subroutine "getin" to accept lower-case letters.  All output,
+however, is retained in upper-case letters, as it originally was.  The
+message of the day file, motd.for, was a no-op when I received the code.
+I added some code to support this feature.
+
+No make file is included.  To create the program, I compiled all the
+subprograms (but not advent.for), and put the resulting objects in a
+library, which I called advlib.lib.  The compiler command line is:
+
+  fl /c /AL file.for
+  
+Once the library was created, I compiled the main program and created
+the executable with the line:
+
+  fl /AL advent.for /link advlib.lib
+  
+(The /AL switch forces use of the large memory model.)  Optimizations
+are at their default state.  You will get a number of warning messages
+about variables defined but not used.  These are benign.  Also, when
+compiling the large file search.for, you will likely get a complaint
+that it is too big for the optimizer.  No problem; it works fine.
+
+The file text.txt contains all the data for the program.  When the program
+starts, it reads this sequential file, and uses the data to create a
+random-access file, which is deleted when the program exits.  This file
+requires approximately 70K bytes on your disk.  Initialization takes about
+four seconds on my 25MHz, 386-based system, using a Microscience 160 Meg
+hard drive with a random access of 28 milliseconds.  While it is possible
+to run this program from a floppy, I don't recommend it.  It can be
+painfully slow to initialize, and there are delays when the random access
+file is read.
+
+The save and restart, under the old DEC system, were simply core saves,
+with a couple of variables set to show that a restart is in progress.
+I haven't yet implemented a save-to-disk feature.  This means, unfortunately,
+that you must start over each time you play.  Ultimately I will get this fixed.  
+
+The wizard stuff, which permits you to specify hours when the cave
+is closed, is now implemented.
+
+Address questions and comments to Don Ekman at
+
+   3586 Berry Way
+   Santa Clara, CA  95051
+   USA
+   
+or, Internet:
+
+   ekman@wdl30.wdl.loral.com

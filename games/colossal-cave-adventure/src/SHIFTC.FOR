@@ -1,0 +1,24 @@
+      SUBROUTINE SHIFTC(DIRECT,LINE)
+C
+C  SHIFTS BLANK CHARACTERS OFF FROM THE LEFT OR FROM THE RIGHT IN A CHARACTER
+C  VARIABLE.  IF DIRECT .NE. 'RIGHT', LEFT IS ASSUMED.
+C
+      CHARACTER DIRECT * (*), LINE * (*)
+      INTEGER*4 FCHAR,LCHAR
+      EXTERNAL FCHAR,LCHAR
+      
+      IF(DIRECT.NE.'RIGHT') THEN
+         LINE=LINE(FCHAR(LINE):LCHAR(LINE))
+      ELSE
+         IF(LCHAR(LINE).LT.LEN(LINE)) THEN
+            I=LEN(LINE)
+            J=LCHAR(LINE)
+            DO 1 K=J,1,-1
+            LINE(I:I)=LINE(K:K)
+    1       I=I-1
+            LINE(1:LEN(LINE)-J)=' '
+         ENDIF
+      ENDIF
+      RETURN
+      END
+      
