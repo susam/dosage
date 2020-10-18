@@ -1,5 +1,6 @@
 DOSAge
 ======
+
 This directory contains a collection of vintage DOS games and tools that
 I grew up with. These can be run using [DOSBox][DOSBOX].
 
@@ -9,17 +10,29 @@ The following list contains the copyright and other details of all
 software in this directory:
 
 * [games/bricks](games/bricks)
+  - Bricks
+  - Author: Vincent Bly
   - URL: https://www.myabandonware.com/game/bricks-1qf
   - URL: https://archive.org/details/Bricksa11984VinceBlyAction
-    - Download: `Bricks (1984)(Vince Bly) [Action].zip`
-    - `Bricks (1984)(Vince Bly) [Action].zip` provides `BRICK.EXE`
-      identical to the one in the previous URL. It
-      also provides `BRICKS.DOC` identical to the one in
-      `Bricks [a1] (1984)(Vince Bly) [Action].zip`.
-    - The executables in `Bricks (1984)(Vince Bly) [Action].zip`,
-      `Bricks [a1] (1984)(Vince Bly) [Action].zip`, and
-      `Bricks [a2] (1984)(Vince Bly) [Action].zip` are all different
-      from one another.
+  - The My Abandonware URL provided a single file:
+    - `Bricks_DOS_EN.zip`
+  - The Internet Archive URL provided three ZIP files:
+    - `Bricks (1984)(Vince Bly) [Action].zip`
+    - `Bricks [a1] (1984)(Vince Bly) [Action].zip`
+    - `Bricks [a2] (1984)(Vince Bly) [Action].zip`
+  - The following two files were identical:
+    - `Bricks_DOS_EN.zip/brick.exe`
+    - `Bricks (1984)(Vince Bly) [Action].zip/BRICK.EXE`
+  - The following two files were identical:
+    - `Bricks (1984)(Vince Bly) [Action].zip/BRICKS.DOC`
+    - `Bricks [a1] (1984)(Vince Bly) [Action].zip/BRICKS.DOC`
+  - The following three files were all different from each other:
+    - `Bricks (1984)(Vince Bly) [Action].zip/BRICK.EXE`
+    - `Bricks [a1] (1984)(Vince Bly) [Action].zip/BRICKS.EXE`
+    - `Bricks [a2] (1984)(Vince Bly) [Action].zip/BRICKS.EXE`
+  - The files in this directory were obtained from:
+    - `Bricks (1984)(Vince Bly) [Action].zip/BRICK.EXE`
+    - `Bricks (1984)(Vince Bly) [Action].zip/BRICKS.DOC`
   - Use the `dosbox -startmapper` command to map Caps Lock and Insert
     keys to other convenient keys like left arrow and right arrow.
 * [games/moon-bugs](games/moon-bugs)
