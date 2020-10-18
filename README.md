@@ -59,6 +59,11 @@ software in this directory:
   - Copyright (c) 1983 Atari, Inc.
   - Author: Atari, Inc.
   - URL: http://dosgamezone.com/download/ms-pacman-1615.html
+* [games/pc-man](games/pc-man)
+  - PC-MAN
+  - (c) 1982 Orion Software, Inc.
+  - Author: Greg Kuperberg
+  - URL: https://www.myabandonware.com/game/pc-man-14
 * [games/grand-prix-circuit](games/grand-prix-circuit)
   - Grand Prix Circuit
   - Copyright (c) 1988 Accolade Inc.

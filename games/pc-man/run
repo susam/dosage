@@ -1,0 +1,1 @@
+dosbox PCMAN.COM -c "config -set render aspect=true"
