@@ -78,6 +78,17 @@ software in this directory:
   - Authors: Willie Crowther and Don Woods
   - URL: https://ifdb.tads.org/viewgame?id=fft6pu91j85y4acv
   - URL: http://mirror.ifarchive.org/if-archive/games/pc/adv350de.zip
+* [games/zork](games/zork)
+  - ZORK I: The Great Underground Empire
+  - Copyright (c) 1981, 1982, 1983 Infocom, Inc. All Rights reserved.
+  - ZORK II: The Wizard of Frobozz
+  - Copyright (c) 1981, 1982, 1983 Infocom, Inc. All Rights reserved.
+  - ZORK III: The Dungeon Master
+  - Copyright (c) 1982 by Infocom, Inc. All Rights reserved.
+  - URL: http://www.infocom-if.org/downloads/downloads.html
+  - URL: http://www.infocom-if.org/downloads/zork1.zip
+  - URL: http://www.infocom-if.org/downloads/zork2.zip
+  - URL: http://www.infocom-if.org/downloads/zork3.zip
 * [langs/logo](langs/logo)
   - IBM Personal Computer Logo Version 1.00
   - (c) Copyright IBM Corp. 1983
