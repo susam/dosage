@@ -122,11 +122,17 @@ software in this directory:
       they are not useful: GETCLOCK.COM, RAMDISK.COM, SAMPLE1.BAT,
       SAMPLE2.BAT.
   - Commands: `BASCOM HELLO /O`, `LINK HELLO`.
-* [tools/mips](langs/mips)
+* [tools/mips](tools/mips)
   - MIPS v1.10 CPU Benchmark and Performance Test
   - (C) 1986 Chips and Technologies, Inc.
   - URL: https://archive.org/details/MIPS_ZIP
   - URL: https://archive.org/download/MIPS_ZIP/MIPS.ZIP
+* [tools/banner-mania](tools/banner-mania)
+  - Banner Mania
+  - (c) 1989 Pixellite Group
+  - Authors: Christopher Schardt and Dane Bigham
+  - URL: https://archive.org/details/BANNER-MANIA
+  - URL: https://archive.org/download/BANNER-MANIA/BANNER.7z
 
 Some directories have a file named `run` that contains the command to
 run the program in that directory with the right DOSBox configuration.
