@@ -89,6 +89,10 @@ software in this directory:
   - URL: http://www.infocom-if.org/downloads/zork1.zip
   - URL: http://www.infocom-if.org/downloads/zork2.zip
   - URL: http://www.infocom-if.org/downloads/zork3.zip
+  - Manuals:
+  - URL: https://www.myabandonware.com/game/zork-the-great-underground-empire-1j
+  - URL: https://www.myabandonware.com/game/zork-ii-the-wizard-of-frobozz-35
+  - URL: https://www.myabandonware.com/game/zork-iii-the-dungeon-master-53
 * [langs/logo](langs/logo)
   - IBM Personal Computer Logo Version 1.00
   - (c) Copyright IBM Corp. 1983
