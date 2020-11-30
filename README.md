@@ -91,7 +91,7 @@ software in this directory:
   - Authors: Willie Crowther and Don Woods
   - URL: https://ifdb.tads.org/viewgame?id=fft6pu91j85y4acv
   - URL: http://mirror.ifarchive.org/if-archive/games/pc/adv350de.zip
-* [games/zork](games/zork)
+* [games/zork1](games/zork1), [games/zork2](games/zork2), [games/zork3](games/zork3)
   - ZORK I: The Great Underground Empire
   - Copyright (c) 1981, 1982, 1983 Infocom, Inc. All Rights reserved.
   - ZORK II: The Wizard of Frobozz
